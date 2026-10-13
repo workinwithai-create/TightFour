@@ -1,0 +1,18 @@
+:root { --bg:#111; --fg:#eee; --accent:#c9a227; --muted:#888; }
+body { background:var(--bg); color:var(--fg); font-family:system-ui,sans-serif; margin:0; padding:1rem 1rem 5rem; }
+.eyebrow { color:var(--accent); font-size:.75rem; letter-spacing:.1em; text-transform:uppercase; }
+h1 { margin:.2rem 0; }
+.lead { max-width:40rem; line-height:1.4; }
+.status { color:var(--muted); }
+.row { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0 1rem; }
+button { background:#222; color:var(--fg); border:1px solid #333; padding:.5rem 1rem; border-radius:4px; cursor:pointer; }
+button:hover { border-color:var(--accent); }
+button.active { background:var(--accent); color:#111; }
+.bars { display:grid; grid-template-columns:repeat(8,1fr); gap:.25rem; margin:1rem 0; }
+.bar { background:#1a1a1a; padding:.5rem; text-align:center; font-size:.8rem; border-radius:2px; }
+.controls { display:flex; gap:1rem; margin:1rem 0; flex-wrap:wrap; }
+.controls label { display:flex; align-items:center; gap:.3rem; }
+input,select { background:#222; color:var(--fg); border:1px solid #333; padding:.3rem; }
+pre { background:#1a1a1a; padding:1rem; overflow:auto; white-space:pre-wrap; }
+.dock { position:fixed; bottom:0; left:0; right:0; background:#0a0a0a; border-top:1px solid #333; padding:.5rem; display:flex; gap:.5rem; flex-wrap:wrap; }
+.export { margin:1rem 0; }
